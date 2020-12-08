@@ -2,7 +2,7 @@ import Geolocation from 'react-native-geolocation-service';
 import {assign, createMachine} from 'xstate';
 import {submitAddress} from '../../services/address.service';
 import {AddressDetails, Photo} from '../../types';
-import formatAddress from '../../utils/format_address';
+import {formatAddress} from '../../utils/utils';
 
 type StringRecord = Record<string, string>;
 
